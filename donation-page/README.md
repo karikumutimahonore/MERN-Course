@@ -1,16 +1,53 @@
-# React + Vite
+# Donation Page Project
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview
 
-Currently, two official plugins are available:
+A single-page donation application built with React, demonstrating component-based architecture and styling techniques.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Project Structure
 
-## React Compiler
+```
+src/
+├── components/
+│   ├── Header.jsx
+│   ├── Banner.jsx
+│   ├── DonationCards.jsx
+│   └── Footer.jsx
+└── App.jsx
+```
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Learning Objectives
 
-## Expanding the ESLint configuration
+- Build reusable React components
+- Organize components in a dedicated folder structure
+- Import and compose components in `App.jsx`
+- Apply inline styling for component styling
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Components
+
+### Header
+
+Navigation and branding section at the top of the page.
+
+### Banner
+
+Here section with donation introduction and call-to-action.
+
+### DonationCards
+
+Display donation options with amounts and descriptions.
+
+### Footer
+
+Footer section with links and information.
+
+## Styling
+
+All styling implemented using React inline styles (JavaScript objects).
+
+## Getting Started
+
+1. Create components in `src/components/` folder
+2. Import all components in `src/App.jsx`
+3. Compose components in the App component
+4. View the live page in your browser
