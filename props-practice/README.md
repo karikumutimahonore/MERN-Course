@@ -14,7 +14,13 @@ This project demonstrates how to use props in React components to pass data from
 - Basic knowledge of React
 
 ### Installation
+```bash
+npm install
+```
 
+To install dependencies, run:
+
+```bash
 ```bash
 npm install
 ```
