@@ -1,16 +1,17 @@
-import Greeting from "./components/Greetings";
-import DonationButton from "./components/DonationButton";
+import Cards from "./components/Cards";
 
 const App = () => {
-  const DonateFn = () => {
-    alert("Thank you for your donation!");
-  };
   return (
     <div>
-      <Greeting name="Honore" message="Good morning" age="20 years" />
-      <Greeting name="John" message="Good afternoon" age="22 years" />
-      <Greeting name="Smith" message="Good evening" age="30 years" />
-      <DonationButton onDonate={DonateFn} />
+      <Cards>
+        <h2>Hello, Ella</h2>
+        <p>Welcome to JavaScript</p>
+      </Cards>
+
+      <Cards>
+        <h2>Hello, Smith</h2>
+        <p>Welcome to NodeJs</p>
+      </Cards>
     </div>
   );
 };
